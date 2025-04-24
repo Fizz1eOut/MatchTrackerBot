@@ -1,6 +1,6 @@
 services:
-  - type: worker
-    name: MatchTrackerBotWorker
+  - type: web
+    name: MatchTrackerBotWeb
     env: node
     plan: free
     buildCommand: npm install
