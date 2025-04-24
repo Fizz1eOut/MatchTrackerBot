@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: MatchTrackerBotWorker
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node bot.js
+    autoDeploy: true
+    repo: https://github.com/yourusername/your-repo-name
