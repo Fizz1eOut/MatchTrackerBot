@@ -6,4 +6,4 @@ services:
     buildCommand: npm install
     startCommand: node bot.js
     autoDeploy: true
-    repo: https://github.com/yourusername/your-repo-name
+    repo: https://github.com/Fizz1eOut/MatchTrackerBot
